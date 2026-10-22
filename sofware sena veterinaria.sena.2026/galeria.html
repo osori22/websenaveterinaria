@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria de Huella Vital Clinica Veterinaria: instalaciones, consultorios, equipo medico y nuestros pacientes en Cartagena.">
+  <meta name="author" content="Huella Vital - Clinica Veterinaria">
+  <meta name="keywords" content="galeria veterinaria, clinica veterinaria Cartagena, instalaciones veterinaria, fotos veterinaria">
+  <title>Galeria | Huella Vital - Clinica Veterinaria</title>
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- ======================= BARRA SUPERIOR ======================= -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p class="topbar__item">
+        <svg class="topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Urgencias 24/7: <a href="tel:+573001234567">(300) 123 4567</a>
+      </p>
+      <p class="topbar__item topbar__item--extra">
+        <svg class="topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+        Lunes a sabado: 8:00 a.m. - 6:00 p.m.
+      </p>
+    </div>
+  </div>
+
+  <!-- ======================= CABECERA ======================= -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar__inner">
+
+        <a class="brand" href="index.html" aria-label="Huella Vital, ir al inicio">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 12.5c-2.2 0-4.6 1.4-5.6 3.2-.6 1.1.2 2.4 1.5 2.4h8.2c1.3 0 2.1-1.3 1.5-2.4-1-1.8-3.4-3.2-5.6-3.2z"/><ellipse cx="6.2" cy="9.4" rx="2.3" ry="2.9"/><ellipse cx="10.2" cy="5.6" rx="2.3" ry="2.9"/><ellipse cx="14.6" cy="5.6" rx="2.3" ry="2.9"/><ellipse cx="18.2" cy="9.4" rx="2.3" ry="2.9"/></svg>
+          </span>
+          <span class="brand__text">
+            <strong>Huella Vital</strong>
+            <small>Clinica veterinaria</small>
+          </span>
+        </a>
+
+        <nav class="nav" id="main-nav" aria-label="Navegacion principal">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Inicio</a></li>
+            <li><a class="nav__link" href="servicios.html">Servicios</a></li>
+            <li><a class="nav__link" href="galeria.html">Galeria</a></li>
+            <li><a class="nav__link" href="contacto.html">Contacto</a></li>
+          </ul>
+          <a class="btn btn--primary btn--sm nav__cta" href="contacto.html#contacto-form">Agendar cita</a>
+        </nav>
+
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu de navegacion">
+          <span></span><span></span><span></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================= ENCABEZADO DE PAGINA ======================= -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__inner">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Inicio</a></li>
+            <li>Galeria</li>
+          </ol>
+          <h1>Un recorrido por Huella Vital</h1>
+          <p>Instalaciones, equipo medico y los pacientes que nos han confiado su cuidado. Haz clic en cualquier imagen para ampliarla.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= GALERIA ======================= -->
+    <section class="section">
+      <div class="container">
+
+        <div class="filters reveal">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="filter" type="button" data-filter="instalaciones" aria-pressed="false">Instalaciones</button>
+          <button class="filter" type="button" data-filter="consultas" aria-pressed="false">Consultas</button>
+          <button class="filter" type="button" data-filter="mascotas" aria-pressed="false">Mascotas</button>
+          <button class="filter" type="button" data-filter="equipo" aria-pressed="false">Equipo</button>
+        </div>
+
+        <p class="text-center" style="margin-bottom:28px;color:var(--gris-600)">
+          Mostrando <strong data-gallery-count>12</strong> imagenes
+        </p>
+
+        <div class="gallery">
+
+          <button class="gallery__item" type="button" data-category="instalaciones" data-title="Recepcion y sala de espera">
+            <img src="images/galeria-01.svg" alt="Recepcion y sala de espera de Huella Vital" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Recepcion</strong>
+              <span>Instalaciones</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="consultas" data-title="Consultorio con mesa de examen">
+            <img src="images/galeria-02.svg" alt="Consultorio con mesa de examen clinico" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Consultorio 1</strong>
+              <span>Consultas</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="consultas" data-title="Equipo de ecografia y radiologia">
+            <img src="images/galeria-03.svg" alt="Equipo de ecografia y radiologia" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Diagnostico por imagen</strong>
+              <span>Consultas</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="instalaciones" data-title="Laboratorio clinico">
+            <img src="images/galeria-04.svg" alt="Laboratorio clinico de Huella Vital" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Laboratorio</strong>
+              <span>Instalaciones</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="mascotas" data-title="Bruno en su visita anual">
+            <img src="images/galeria-05.svg" alt="Perro本色 esperando su consulta anual" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Bruno en consulta</strong>
+              <span>Mascotas</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="mascotas" data-title="Gata en la sala de espera">
+            <img src="images/galeria-06.svg" alt="Gata tranquila en la sala de espera" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Luli descansando</strong>
+              <span>Mascotas</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="instalaciones" data-title="Quirófano y mesa quirurgica">
+            <img src="images/galeria-07.svg" alt="Quirofano con mesa quirurgica" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Quirofano</strong>
+              <span>Instalaciones</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="instalaciones" data-title="Unidad de hospitalizacion">
+            <img src="images/galeria-08.svg" alt="Unidad de hospitalizacion con camillas" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Hospitalizacion</strong>
+              <span>Instalaciones</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="equipo" data-title="Equipo medico de Huella Vital">
+            <img src="images/galeria-09.svg" alt="Equipo medico de la clinica" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Nuestro equipo</strong>
+              <span>Equipo</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="equipo" data-title="Veterinaria en consulta">
+            <img src="images/galeria-10.svg" alt="Veterinaria atendiendo a un paciente" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Dra. Mariana Lopez</strong>
+              <span>Equipo</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="mascotas" data-title="Cachorro recien adopterizado">
+            <img src="images/galeria-11.svg" alt="Cachorro recien adoptado en la clinica" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Primer dia en casa</strong>
+              <span>Mascotas</span>
+            </span>
+          </button>
+
+          <button class="gallery__item" type="button" data-category="mascotas" data-title="Sesion de peluqueria">
+            <img src="images/galeria-12.svg" alt="Perro durante una sesion de peluqueria" width="480" height="360" loading="lazy">
+            <span class="gallery__overlay">
+              <strong>Dia de peluqueria</strong>
+              <span>Mascotas</span>
+            </span>
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CTA ======================= -->
+    <section class="cta-band">
+      <div class="container">
+        <div class="cta-band__inner">
+          <div>
+            <h2>Ven y conoce la clinica en persona</h2>
+            <p>Te esperamos con una visita guiada para que tu mascota se familiarice con el espacio antes de su primera consulta.</p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn--accent btn--lg" href="contacto.html#contacto-form">Agendar cita</a>
+            <a class="btn btn--light btn--lg" href="contacto.html">Como llegar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= LIGHTBOX ======================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imagenes">
+    <button class="lightbox__close" type="button" aria-label="Cerrar visor">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Imagen anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Imagen siguiente">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+
+    <figure class="lightbox__figure">
+      <img src="images/galeria-01.svg" alt="">
+      <figcaption class="lightbox__caption">
+        <span class="lightbox__counter">1 / 12</span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- ======================= PIE DE PAGINA ======================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div>
+          <a class="footer__brand" href="index.html">
+            <span class="brand__mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 12.5c-2.2 0-4.6 1.4-5.6 3.2-.6 1.1.2 2.4 1.5 2.4h8.2c1.3 0 2.1-1.3 1.5-2.4-1-1.8-3.4-3.2-5.6-3.2z"/><ellipse cx="6.2" cy="9.4" rx="2.3" ry="2.9"/><ellipse cx="10.2" cy="5.6" rx="2.3" ry="2.9"/><ellipse cx="14.6" cy="5.6" rx="2.3" ry="2.9"/><ellipse cx="18.2" cy="9.4" rx="2.3" ry="2.9"/></svg>
+            </span>
+            <span>
+              <strong>Huella Vital</strong>
+              <small>Clinica veterinaria</small>
+            </span>
+          </a>
+          <p>Clinica veterinaria integral con mas de 12 anos de experiencia. Cuidamos de la salud de tu mascota con tecnologia, carino y transparencia.</p>
+
+          <div class="social">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 5.1a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.8a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2zm6.1-8a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.2-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.5-.4zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Navegacion</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Servicios</h4>
+          <ul class="footer__list">
+            <li><a href="servicios.html#consultas">Consultas</a></li>
+            <li><a href="servicios.html#vacunacion">Vacunacion</a></li>
+            <li><a href="servicios.html#cirugia">Cirugia</a></li>
+            <li><a href="servicios.html#estetica">Estetica</a></li>
+            <li><a href="servicios.html#urgencias">Urgencias 24/7</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <ul class="footer__list">
+            <li>Calle 85 # 12 - 45, Barrio La Asuncion</li>
+            <li>Cartagena, Colombia</li>
+            <li><a href="tel:+573001234567">(300) 123 4567</a></li>
+            <li><a href="mailto:contacto@huellavital.com">contacto@huellavital.com</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span data-year>2026</span> Huella Vital. Todos los derechos reservados.</p>
+        <p><a href="contacto.html">Politica de privacidad</a> &middot; <a href="contacto.html">Terminos y condiciones</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
